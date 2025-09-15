@@ -1,6 +1,17 @@
+/* Keep your existing image centering */
 img {
   display: block;
   margin: 0 auto 16px; /* centers horizontally + adds space below */
   max-width: 100%;
   height: auto;
+}
+
+/* New: Center and size the embedded doc */
+iframe {
+  display: block;
+  margin: 0 auto;         /* center horizontally */
+  width: 90%;             /* take up most of the width */
+  height: 90vh;           /* 90% of viewport height */
+  border: none;           /* optional: remove border */
+  border-radius: 8px;     /* optional: rounded corners */
 }
