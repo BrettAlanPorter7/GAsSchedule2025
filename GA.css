@@ -16,11 +16,4 @@ iframe {
   border-radius: 8px;     /* optional: rounded corners */
 }
 
-/* Responsive iframe for mobile */
-@media (max-width: 768px) {
-  iframe {
-    width: 100%;       /* use full width on small screens */
-    height: 70vh;      /* shorter so it fits without endless scrolling */
-    border-radius: 0;  /* remove rounded corners for mobile */
-  }
-}
+
